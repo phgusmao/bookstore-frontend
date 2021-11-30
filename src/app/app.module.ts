@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BooksModule } from './modules/books/books.module';
 import { AuthorsModule } from './modules/authors/authors.module';
 import { PublishersModule } from './modules/publishers/publishers.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PublishersModule } from './modules/publishers/publishers.module';
     BooksModule,
     AuthorsModule,
     GenresModule,
-    PublishersModule
+    PublishersModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
